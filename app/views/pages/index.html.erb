@@ -1,0 +1,8 @@
+<p><%= link_to "About", '/about' %></p>
+<h1>Pages#index</h1>
+<p>Find me in app/views/pages/index.html.erb</p>
+<p> <%= @notice %> </p>
+
+<% content_for(:note) do %>
+<p>This could be different for each view.</p>
+<% end %>

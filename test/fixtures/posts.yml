@@ -1,0 +1,26 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+#=begin
+#one:
+  #title: MyString
+  #blurp: MyString
+  #body: MyText
+
+#two:
+  #title: MyString
+  #blurp: MyString
+  #body: MyText
+#=end
+
+#<<-DOC
+#DOC
+  
+one:
+  title: The first post
+  blurp: This post won't be about very much at all.
+  body: So, here is a meaningless post.
+
+two:
+  title: The second post
+  blurp: There had to be two, didn't there?
+  body: Yep, you guessed it, this is the second post.
